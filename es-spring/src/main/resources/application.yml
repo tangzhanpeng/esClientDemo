@@ -1,0 +1,11 @@
+spring:
+  elasticsearch:
+    rest:
+      uris: http://tommy_es1:9200,http://tommy_es2:9200,http://tommy_es3:9200
+
+logging:
+  level:
+    com:
+      tzp:
+        esSpring: info
+    root: info
